@@ -1,0 +1,36 @@
+#list-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.item {
+  background-color: rgb(238, 232, 232);
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 25%;
+  gap: 16px;
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 16px;
+}
+
+.title {
+  color: rgb(107, 3, 3);
+  font-family: Verdana, Geneva, Tahoma, sans-serif bold;
+}
+
+.image {
+  object-fit: contain;
+  height: 20vh;
+}
+
+.button {
+  border-radius: 5%;
+  border: solid black;
+  background-color: rgb(78, 78, 99);
+  padding: 8px;
+  color: aliceblue;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
